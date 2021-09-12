@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+
 
                     <ol>
                         @foreach (\Laravel\Passport\Client::wherePersonalAccessClient(false)->wherePasswordClient(false)->get() as $item)
